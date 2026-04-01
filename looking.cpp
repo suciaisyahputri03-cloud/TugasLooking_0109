@@ -5,18 +5,6 @@ using namespace std;
 int n;
 int pilihan;
 
-
-int menu(){
-    cout<<"===== MENU ====="<<endl;
-    cout<<"1. Cek Bilangan Prima"<<endl;
-    cout<<"2. Cek Bilangan Fibonacci"<<endl;
-    cout<<"0. Keluar"<<endl;
-    cout<<"Pilih menu : ";
-    cin>>pilihan;
-
-    return pilihan;
-}
-
 //fungcion untuk mengecek bilangan prima
 bool cekprima(int x){
     int i=2;
