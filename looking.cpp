@@ -97,7 +97,20 @@ int menu(){
 int main(){
     while (true){
         switch(menu()){
-            
+
+           case 1:
+                inputAngka();
+                tampilPrima();
+                break;
+
+            case 2:
+                inputAngka();
+                tampilFibonacci();
+                break;
+
+            case 0:
+                cout << "Program selesai." << endl;
+                return 0; 
         }
     }
 }
