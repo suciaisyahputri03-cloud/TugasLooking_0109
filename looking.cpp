@@ -5,10 +5,6 @@ using namespace std;
 int n;
 int pilihan;
 
-void inputAngka(){
-    cout<<"masukkan bilangan : ";
-    cin>>n;
-}
 
 int menu(){
     cout<<"===== MENU ====="<<endl;
