@@ -80,3 +80,8 @@ void tampilFibonacci(){
         cout << n << "bukan deret Finabonacci" << endl;
     }
 }
+
+// fungction menu
+int menu(){
+    
+}
