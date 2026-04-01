@@ -59,5 +59,6 @@ bool cekFinabocci (int x){
 
 // prosedur input angka
 void inputAngka(){
-    
+    cout << "Masukkan bilangan: ";
+    cin >> n;
 }
