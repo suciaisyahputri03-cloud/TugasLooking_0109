@@ -62,3 +62,8 @@ void inputAngka(){
     cout << "Masukkan bilangan: ";
     cin >> n;
 }
+
+// Prosedur menampilkan hasil cek prima
+void tampilPrima(){
+    
+}
