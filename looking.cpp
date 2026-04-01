@@ -93,3 +93,11 @@ int menu(){
 
     return pilihan;
 }
+
+int main(){
+    while (true){
+        switch(menu()){
+            
+        }
+    }
+}
