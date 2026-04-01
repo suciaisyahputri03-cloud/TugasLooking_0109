@@ -37,3 +37,9 @@ bool cekprime(int x){
     }
     return true;
 }
+//fungction unuk mengecek bilangan Fibonacci
+bool cekFinabocci (int x){
+     int a = 0;
+    int b = 1;
+    int c = 0;
+}
