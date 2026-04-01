@@ -74,5 +74,9 @@ void tampilPrima(){
 
 //prosedur menampilkan hasil cek Fibonacci
 void tampilFibonacci(){
-    
+    if(cekFibonacci(n)){
+        cout << n << "termasuk deret Finabonacci" << endl;
+    }else{
+        cout << n << "bukan deret Finabonacci" << endl;
+    }
 }
