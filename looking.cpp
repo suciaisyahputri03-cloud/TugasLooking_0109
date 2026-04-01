@@ -47,5 +47,12 @@ bool cekFinabocci (int x){
         if(c == x){
             return true;
         }
+
+        a = b;
+        b = c;
+        c = a + b;
+
     }
+
+    return false;
 }
