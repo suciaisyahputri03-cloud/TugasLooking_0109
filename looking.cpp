@@ -22,7 +22,7 @@ int menu(){
 }
 
 //fungcion untuk mengecek bilangan prima
-bool cekprime(int x){
+bool cekprima(int x){
     int i=2;
 
     if(x<=1){
@@ -65,5 +65,9 @@ void inputAngka(){
 
 // Prosedur menampilkan hasil cek prima
 void tampilPrima(){
-    
+    if(cekprima(n)){
+        cout << n << " adalah bilangan prima" << endl;
+    }else{
+        cout << n<< "bukan bilangan prima" << endl;
+    }
 }
