@@ -17,4 +17,11 @@ int menu(){
     cout<<"0. Keluar"<<endl;
     cout<<"Pilih menu : ";
     cin>>pilihan;
+
+    return pilihan;
+}
+
+//fungcion untuk mengecek bilangan prima
+bool cekprime(int x){
+    
 }
