@@ -71,3 +71,8 @@ void tampilPrima(){
         cout << n<< "bukan bilangan prima" << endl;
     }
 }
+
+//prosedur menampilkan hasil cek Fibonacci
+void tampilFibonacci(){
+    
+}
