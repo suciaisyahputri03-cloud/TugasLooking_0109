@@ -56,3 +56,8 @@ bool cekFinabocci (int x){
 
     return false;
 }
+
+// prosedur input angka
+void inputAngka(){
+    
+}
